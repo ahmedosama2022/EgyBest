@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    height: 6000px;
+    background: #ecf0f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 20px;
+    background: #eff0f3;
+    box-shadow: 10px 1px 3px #ccc;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    z-index: 2;
+}
+nav img{
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+}
+
+.in1 input{
+    width: 120px;
+    height: 40px;
+    background: #00a1cb;
+    color: white;
+    font-weight: bold;
+    border: 20px solid  #00a1cb;
+    border:none;
+    font-size: 21px;
+}
+
+.in2 input{
+    width: 120px;
+    height: 40px;
+    background: #10bf46;
+    color: white;
+    font-weight: bold;
+    border-color: #10bf46;
+    border: none;
+    font-size: 21px;
+    margin-right: 60px;
+    padding-right: 20px;
+}
+nav .fa-solid.fa-user{
+    position: relative;
+    right: 130px;
+    top: 10px;
+    color: white;
+}
+
+.in3 input{
+    width: 600px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+    border-radius: 7px ;
+    border: 0.2px solid;
+    padding-right: 10px;
+}
+
+nav .fa-solid.fa-magnifying-glass{
+    position: relative;
+    right: 640px;
+    top: 13px;
+}
+
+
+.sec{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top:90px;
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: 0px 1px 3px #ccc;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.ss h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    
+}
+
+.dd input{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color:red;
+   
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dd input:hover{
+    background-color: red;
+    color: white;
+   
+}
+.seec{
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+.leftside{
+    position: fixed;
+    overflow: scroll;
+}
+
+
+
+
+
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+hr{
+   position: relative;
+   right: 5px;
+}
+
+.sec1 h1{
+    color: #06c;
+    margin-right: 10px;
+}
+
+.sec1 .fa-brands.fa-facebook-square{
+    font-size: 25px;
+    color: #06c;
+}
+
+
+.sec2 h1{
+    color: #06c;
+    margin-right: 10px;
+}
+
+.sec2 .fa-brands.fa-twitter{
+    font-size: 25px;
+    color: #06c;
+}
+
+.bodyn{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.centerside{
+    position: relative;
+    top: 100px;
+    left: 440px;
+    
+}
+
+
+.centerside h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.sec55{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    right: 90px;
+    border-radius: 7px;
+}
+
+.sec59{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    right: 90px;
+    border-radius: 7px;
+    top: 30px;
+}
+
+.sec56{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    right: 90px;
+    top: 20px;
+    border-radius: 7px;
+}
+
+.unt1{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px
+}
+
+.unt1 p{
+    color: #06c;
+}
+hr{
+    position: relative;
+    left: 1px;
+}
+
+.sec22{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+.img1 p{
+    color: #06c;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}  
+
+.img1{
+    margin-left: 10px;
+}
+
+.rightside{
+    position: fixed;
+    overflow: scroll;
+}
+
+
+
+.sec123{
+   margin-top: 100px;
+   margin-left: 1160px;
+   width: 180px;
+   height: 370px;
+   background-color: white;
+   border-radius: 5px;
+   position: fixed;
+}
+
+.lef{
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+.sec123 p{
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+}
+    
+.sec123 hr{ 
+    background-color:red ;
+}
+.vb p:hover{
+     color: red;
+}
+.ffg .fa-brands.fa-facebook-square{
+   padding-top: 100px;
+   padding-left: 150px;
+   font-size: 40px;
+   color: #06c; 
+   position: relative;
+   bottom: 50px;
+   
+    
+}
+
+.ffg .fa-brands.fa-twitter{
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-top: -40px;
+    font-size: 25px;
+    color:white; 
+    position: relative;
+    
+    background-color: #06c;
+    margin-left: 60px;
+    width: 40px;
+    height: 30px;
+    left: 10px;
+    margin-left: -50px;
+    border-radius: 4px;
+     
+ }
+
+
+.vb{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    color: #06c;
+} 
